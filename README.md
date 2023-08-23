@@ -2,7 +2,7 @@
 Step to install MySQL Database inside docker
 
 
-docker run -it -d --name -p 3306:3306 uc1 ubuntu:latest
+docker run -it -d -p 3306:3306 --name uc1 ubuntu:latest
 
 docker container exec -it /bin/bash
 
